@@ -21,4 +21,3 @@ for c in range(len(cities)):
             total += temperatures[c][d][w]
         average = total / len(days)
         print(f"{cities[c]}, Week {w+1}: Average = {average:.2f}°C")
-
